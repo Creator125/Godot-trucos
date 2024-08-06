@@ -1,53 +1,54 @@
 # Trucos de godot
 
-## Nodos de favoritos
-Si seleciona un nodo como favorito esta aparaceraá en la seccion de favoritos pemitiendo que sea mas facil de buscar
+## Nodos Favoritos
+Puedes marcar un nodo como favorito para que aparezca en la sección de favoritos, facilitando su búsqueda.
 
 ![](img/tip1-1.png)
 
-Esto funcionará con los nodos nativos como los personalizado para el juego.
 
-A la hora de crear un nodo nuevo puede tomar directamente como raiz los favorios y tambien personalizados presionado al icono de la estrella.
+Esto funciona tanto con nodos nativos como con los personalizados para tu juego.
+
+Al crear un nuevo nodo, puedes seleccionarlo directamente desde la sección de favoritos y nodos personalizados, presionando el ícono de estrella.
 
 ![](img/tip1-2.png)
 
 
-## Daspliegar y colapsar
-Aveces un nodo puede tener muchos nodo hijos y puede volverse una tarea tendiosa bucar uno en especifico.
+## Desplegar y Colapsar
+A veces, un nodo puede tener muchos nodos hijos, lo que puede hacer difícil encontrar uno en particular.
 
-Si queremos despligar todo los nodo incluyendo sus subnodos podemos precional **Shift** + **Click** para despliegar todos los nodos del nodo pabre y sus subnodos.
+Para desplegar todos los nodos de un padre y sus subnodos, puedes presionar **Shift** + **Click**.
 
 ![](img/tip2-1.png)
 
-Y si lo queremos volver al colapsar presionamos **Shift** + **Click** de nuevo en el nodo padre
+Para volver a colapsar, simplemente presiona **Shift** + **Click** de nuevo en el nodo padre.
 
 ![](img/tip2-2.png)
 
-Tambien esto fuciona en los nodo hijos
+Esto también funciona con los nodos hijos
 
 ![](img/tip2-3.png)
 
-Incluso en el panel de exproador de archivos esto funciona pudiendo despliegar y colapsar los directorios y subdirectorios para tener una vision general del proyecto.
+Incluso en el explorador de archivos, permitiendo desplegar y colapsar directorios y subdirectorios para tener una visión general del proyecto.
 
 ![](img/tip2-4.png)
 
 
 ## Anidamiento y posición
-Si arraetramo un nodo hacia otro nodo este se anidará actualizando su ```Tranform/Position``` Automaticamente consvarando su posición pero conservando su sitema de cordenadas local (en donde el centro ahora es su padre)
+Si arrastras un nodo hacia otro nodo, este se anidará automáticamente, actualizando su ```Transform/Position``` para mantener su posición relativa al nuevo nodo padre.
 
 ![](img/tip3-1.png)
 
-Pero si presionamos **Shift** y a la vez arrastramo el nodo hijo hacia el padre, el nodo hijo conservará sus coordanada locales por lo que se moveraá dnetro de la esena y su ```Tranform/Position``` se mantiene.
+Si presionas **Shift** mientras arrastras el nodo hijo hacia el padre, el nodo hijo conservará sus coordanada locales por lo que se moveraá dnetro de la esena y su ```Tranform/Position``` se mantiene.
 
 ![](img/tip3-2.png)
 
 
-## Arratrar scrips
-Nosotro podemos asignar un script a un nodo desde el boton de asingar Scrips pero tambien podemos arratrar un fichero de Scrips hacia un nodo por lo que despues aparecerá el icono de scripts asignado.
+## Asignar Scripts
+Puedes asignar un script a un nodo usando el botón de asignar scripts, o simplemente arrastrando un archivo de script al nodo.
 
 ![](img/tip4-1.png)
 
-Pero tambien podemos precionar la tecla **Ctrl** mientras arrastramos un scrips al nodo y en vez de ajuntar el script se creará un subnodo con el script y su tipo de objeto.
+Si mantienes presionada la tecla **Ctrl** mientras arrastras el script, en lugar de adjuntarlo, se creará un subnodo con el script como componente.
 
 ![](img/tip4-2.png)
 
@@ -308,17 +309,18 @@ estos comentarios especiales no hacen nada pero te permitirán colapsar partes d
 
 Esto recuerda a C# en la que esposible esta sintaxiss
 
-### Multicursor
-El godot es posible el multicursor y la forma de usarlo es pulsando **Alt** + **Click** donde quieras crear cursores el multicursor es una forma de escribir o editar en varias líneas a la vez.
+### Uso de Multicursor
+Puedes usar el multicursor para editar varias líneas a la vez. Para activar el multicursor, presiona **Alt** + **Click** en los lugares donde desees crear cursores adicionales.
+
 
 ![](img/tip9-20.png)
 
-Tambien con el teclado pulsando **Ctrl** + **Shift** y las flechas de arriba o abajo
+También puedes usar **Ctrl** + **Shift** y las teclas de flecha para seleccionar múltiples líneas.
 
 ![](img/tip9-21.png)
 
 ### Evaluando expresiones
-Al igual que el inspector es capaz de evaluar las expresiones el editor de Script también puede hacerlo puedes hacer todos los cálculos que necesites usando fórmulas matemáticas con constantes y todo tipo de cosas mientras piensas.
+Al igual que el inspector el editor de scripts de Godot puede evaluar expresiones matemáticas. Puedes escribir cualquier cálculo y luego presionar **Ctrl** + **Shift** + **E** para evaluarlo y reemplazarlo con el resultado.
 
 ![](img/tip9-22.png)
 
@@ -326,8 +328,8 @@ Al acabar seleccionarlo y pulsar **Ctrl** + **Shift** + **E** para evaluarlo y d
 
 ![](img/tip9-23.png)
 
-### Comentar varias lineas
-Pulsando **Ctrl** + **K** puedes comentar o descomentar rápidamente todas esas líneas.
+### Comentarios Múltiples
+Para comentar o descomentar varias líneas a la vez, selecciona las líneas y presiona **Ctrl** + **K**.
 
 ![](img/tip9-24.png)
 
