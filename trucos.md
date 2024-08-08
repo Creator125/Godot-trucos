@@ -223,6 +223,11 @@ Para añadir guias podemos arrastrarlas desde las reglas
 
 Las cuales puede se util para alinear elemenetos como la intefaz
 
+### Mover un nodo en especifico
+Si queremos seleccionar una esena en especifica para moverla y como el nodo que está en cima por ejemplo, presione la tecla **Alt** y podemos seleccionar la esena mover.
+
+![](img/tip9-27.png)
+
 
 ## Editor de Scripts
 
